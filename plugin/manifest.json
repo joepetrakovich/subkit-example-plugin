@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Word Highlighter",
+    "description": "An extension that highlights words from a predefined list.",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+      },
+    "web_accessible_resources": [
+        {
+            "resources": [ "highlight-icon.svg" ],
+            "matches": ["<all_urls>"]
+        }
+    ]
+  }

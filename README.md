@@ -1,0 +1,1 @@
+An example Subkit plugin that highlights words from a pre-defined list.
